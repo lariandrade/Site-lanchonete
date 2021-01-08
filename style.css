@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f7b438;
+}
+/* MENU */
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    height: 50px;
+}
+
+.menu p{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin: 0 15px;
+   
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffde4d;
+}
+
+/* CARDAPIO */
+
+.cardapio{
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardapio-card{
+    max-width: 960px;
+    height: 400px;
+    margin: 50px 20px;
+}
+
+.cardapio-content{
+    background-color: #FBFBFB;
+    height: 450px;
+    width: 238px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+   
+}
+
+.cardapio-img{
+    height: 200px;
+    width: 238px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.cardapio-content h1{
+    text-align: center;
+    margin-top: 20px
+}
+
+.cardapio-content ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 9px;
+}
+
+.cardapio-content ul li{
+    color:#696666;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cardapio-content svg{
+    height: 20px;
+    width: 20px;
+    margin: 5px 6px; 
+}
+
+.cardapio-content button{
+    border: none;
+    background-color: #f7b438;
+    height: 40px;
+    width: 130px;
+    margin: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cardapio-content button:hover{
+    background-color: #d62424;
+    color: #ffffff;
+}
+
+.cardapio a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+footer p{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
